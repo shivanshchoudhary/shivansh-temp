@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e0fbfc;
+  
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #3d5a80;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: +1;
+}
+ .p{
+  color: white;
+  font-size: 20px;
+padding-top: 5px;
+float: left;
+}
+.active{
+
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 5px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ADD8E6;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }         
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+.container{
+  font-size: 24px;
+  padding: 25px;
+}
+.card h3,p {
+  text-align: center;
+
+}
+.ha h1{
+  text-align: center;
+}
+
+.ty{
+  text-align: center;
+}
+
+iframe{
+  width: 600px;
+height:350px;
+margin:  0 auto;
+display: block;
+
+}
+
+
+
+.parallax{
+    
+    background: url('11.jpg') no-repeat center;
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+
+}
+
+.huji{
+  color: white;
+    position: relative;
+    z-index: 2;
+    padding-top: 15%;
+    font-size: 100px;
+    opacity: 0.30;
+}
+.a{
+  
+  
+   background: #e0fbfc;
+  font-size: 24px;
+  padding: 25px;
+}
+
+.b{
+    
+    background: url('2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+
+.c{
+  
+ background: #e0fbfc;
+  font-size: 24px;
+  padding: 25px;
+}
+
+
+.d{
+    
+    background: url('3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.e{
+  
+  
+   background: #e0fbfc;
+  font-size: 24px;
+  padding: 25px;
+}
+
+
+.f{
+    
+    background: url('4.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.g{
+  
+  
+   background: #e0fbfc;
+  font-size: 24px;
+  padding: 25px;
+}
+
+
+.h{
+    
+    background: url('k.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
