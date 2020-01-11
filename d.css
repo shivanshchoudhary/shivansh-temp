@@ -286,7 +286,7 @@ display: block;
 @media screen and (max-width: 600px){
   
   .popup{
-    width: 95%;
+    width: 65%;
     max-width: 550px;
       margin: 
      50px auto; 
