@@ -267,7 +267,7 @@ display: block;
   position: absolute;
   top: 20px;
   right: 20px;
-  transition: all 200ms;
+  transition: ;
   font-size: 25px;
   font-weight: bold;
   text-decoration: none;
@@ -290,7 +290,7 @@ display: block;
     max-width: 550px;
       margin: 
      50px auto; 
-     text-align: left;
+     text-align: center;
   
   }
 }
