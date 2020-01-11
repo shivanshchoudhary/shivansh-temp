@@ -268,7 +268,7 @@ display: block;
   top: 20px;
   right: 20px;
   transition: all 200ms;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   text-decoration: none;
   color: #333;
@@ -284,7 +284,7 @@ display: block;
 @media screen and (max-width: 600px){
   
   .popup{
-    width: 100%;
+    width: 60%;
     z-index: 3;
   }
 }
