@@ -281,24 +281,13 @@ display: block;
   overflow: auto;
    
 }
-.content{
-position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; 
-  height: 0;}
-  
-.content img{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+
 
 @media screen and (max-width: 600px){
   
   .popup{
-    width: 100%;
+    width: 95%;
+    max-width: 550px;
   
   }
 }
