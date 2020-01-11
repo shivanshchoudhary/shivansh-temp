@@ -278,7 +278,7 @@ display: block;
 }
 .popup .content {
   max-height: 5%;
-  overflow: auto;
+  overflow: ;
    
 }
 
@@ -286,7 +286,7 @@ display: block;
 @media screen and (max-width: 600px){
   
   .popup{
-    width: 65%;
+    width: 85%;
     max-width: 550px;
       margin: 
      50px auto; 
