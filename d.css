@@ -288,6 +288,9 @@ display: block;
   .popup{
     width: 95%;
     max-width: 550px;
+      margin: 
+     50px auto; 
+     text-align: left;
   
   }
 }
