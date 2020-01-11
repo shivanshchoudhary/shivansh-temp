@@ -216,7 +216,78 @@ display: block;
 
 
 
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: white;
+  border: 3px ;
+  background: #293241;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #ef8b47;
+}
 
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 60px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+
+  
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 5%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 600px){
+  
+  .popup{
+    width: 100%;
+    z-index: 3;
+  }
+}
 
 
 
